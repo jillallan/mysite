@@ -19,5 +19,6 @@ class DevelopmentConfig(Config):
     DEVELOPMENT = True
     DEBUG = True
 
-class StagingConfig(Config):
+class TestingConfig(Config):
     TESTING = True
+    CSRF_ENABLED = False

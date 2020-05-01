@@ -11,4 +11,10 @@ def create_app():
 
     print(os.environ['APP_SETTINGS'])
 
+    # ensure the instance folder exists
+    try:
+        os.makedirs(app.instance_path)
+    except OSError:
+        pass       
+
     return app
