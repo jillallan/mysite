@@ -4,6 +4,7 @@ gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
--e git+git@github.com:jillallan/mysite.git@f5119f5e41b995f226c02eaa726d969d299c070e#egg=myapp
+# Editable install with no version control (clothes==1.0.0)
+-e /Users/jillallan/Documents/Projects/mysite
 python-dotenv==0.13.0
 Werkzeug==1.0.1
